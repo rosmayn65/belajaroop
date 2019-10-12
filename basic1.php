@@ -31,6 +31,6 @@ class Laptop extends Komputer
         parent::__destruct();
     }
 }
-$asus = new Laptop();
-$asus->spesifikasi();
-echo $asus->processor . "<br>";
+$lenovo = new Laptop();
+$lenovo->spesifikasi();
+echo $lenovo->processor . "<br>";
