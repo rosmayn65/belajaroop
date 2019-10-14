@@ -21,19 +21,19 @@
             <table>
                 <tr>
                     <td><label for="">Nama</label></td>
-                    <td><input type="text" name="nama"></td>
+                    <td><input type="text" name="nama" required></td>
                 </tr><br>
                 <tr>
                     <td><label for="">NIP</label></td>
-                    <td><input type="number" name="nip"></td>
+                    <td><input type="number" name="nip" required></td>
                 </tr><br>
                 <tr>
                     <td><label for="">Alamat</label></td>
-                    <td><input type="" name="alamat"></td>
+                    <td><input type="" name="alamat" required></td>
                 </tr><br>
                 <tr>
                     <td><label for="">Hari Bekerja</label></td>
-                    <td><input type="" name="jml"></td>
+                    <td><input type="" name="jml" required></td>
                 </tr><br>
                 <tr>
                     <td><input type="submit" name="sbm" value="Simpan"></td>
