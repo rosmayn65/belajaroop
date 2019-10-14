@@ -18,7 +18,7 @@ class Aritmatika
     public function kurang()
     {
         $kurang = $this->bil1 - $this->bil2;
-        return "Hasil Bilangan $this->bil1 - $this->bil2 : $kurang<br>";
+        return "Hasil Pengurangan $this->bil1 - $this->bil2 : $kurang<br>";
     }
     public function kali()
     {
@@ -35,7 +35,7 @@ if (isset ($_POST['sbm'])) {
     $a = $_POST['bil1'];
     $b = $_POST['bil2'];
 }
-echo "<center> Hasil Perhitungan</center><br>";
+echo "<center>Hasil Perhitungan</center><br>";
 $hasil = new Aritmatika($a, $b);
 echo $hasil->tambah();
 echo $hasil->kurang();
